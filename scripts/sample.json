@@ -1,0 +1,7348 @@
+{
+ "world": {
+  "studios": [
+   {
+    "id": 1,
+    "name": "Harbor Yoga",
+    "city": "Eastport"
+   },
+   {
+    "id": 2,
+    "name": "Kiln & Wheel",
+    "city": "Westmill"
+   },
+   {
+    "id": 3,
+    "name": "Fourth Street Music",
+    "city": "Westmill"
+   }
+  ],
+  "classes": [
+   {
+    "id": 1,
+    "studio_id": 1,
+    "title": "Sunrise Flow",
+    "price_cents": 5900,
+    "starts_at": 1789912800000
+   },
+   {
+    "id": 2,
+    "studio_id": 1,
+    "title": "Slow Stretch",
+    "price_cents": 3100,
+    "starts_at": 1789383600000
+   },
+   {
+    "id": 3,
+    "studio_id": 1,
+    "title": "Power Hour",
+    "price_cents": 3900,
+    "starts_at": 1789988400000
+   },
+   {
+    "id": 4,
+    "studio_id": 2,
+    "title": "Wheel Basics",
+    "price_cents": 3700,
+    "starts_at": 1788696000000
+   },
+   {
+    "id": 5,
+    "studio_id": 2,
+    "title": "Handbuilding",
+    "price_cents": 2600,
+    "starts_at": 1789470000000
+   },
+   {
+    "id": 6,
+    "studio_id": 2,
+    "title": "Glaze Night",
+    "price_cents": 5900,
+    "starts_at": 1788807600000
+   },
+   {
+    "id": 7,
+    "studio_id": 3,
+    "title": "Guitar Intro",
+    "price_cents": 1900,
+    "starts_at": 1788966000000
+   },
+   {
+    "id": 8,
+    "studio_id": 3,
+    "title": "Piano Lab",
+    "price_cents": 4900,
+    "starts_at": 1788462000000
+   },
+   {
+    "id": 9,
+    "studio_id": 3,
+    "title": "Ukulele Circle",
+    "price_cents": 3900,
+    "starts_at": 1789747200000
+   }
+  ],
+  "users": [
+   {
+    "id": 1,
+    "email": "member1@example.com",
+    "created_at": 1721088000000
+   },
+   {
+    "id": 2,
+    "email": "member2@example.com",
+    "created_at": 1714608000000
+   },
+   {
+    "id": 3,
+    "email": "member3@example.com",
+    "created_at": 1760603643159
+   },
+   {
+    "id": 4,
+    "email": "member4@example.com",
+    "created_at": 1747447612378
+   },
+   {
+    "id": 5,
+    "email": "member5@example.com",
+    "created_at": 1729123200000
+   },
+   {
+    "id": 6,
+    "email": "member6@example.com",
+    "created_at": 1773268953509
+   },
+   {
+    "id": 7,
+    "email": "member7@example.com",
+    "created_at": 1719014400000
+   },
+   {
+    "id": 8,
+    "email": "member8@example.com",
+    "created_at": 1769051991560
+   },
+   {
+    "id": 9,
+    "email": "member9@example.com",
+    "created_at": 1786002257689
+   },
+   {
+    "id": 10,
+    "email": "member10@example.com",
+    "created_at": 1778400297008
+   },
+   {
+    "id": 11,
+    "email": "member11@example.com",
+    "created_at": 1780006006521
+   },
+   {
+    "id": 12,
+    "email": "member12@example.com",
+    "created_at": 1783871013114
+   },
+   {
+    "id": 13,
+    "email": "member13@example.com",
+    "created_at": 1737072000000
+   },
+   {
+    "id": 14,
+    "email": "member14@example.com",
+    "created_at": 1778966588008
+   },
+   {
+    "id": 15,
+    "email": "member15@example.com",
+    "created_at": 1714348800000
+   },
+   {
+    "id": 16,
+    "email": "member16@example.com",
+    "created_at": 1787353992546
+   },
+   {
+    "id": 17,
+    "email": "member17@example.com",
+    "created_at": 1783555692474
+   },
+   {
+    "id": 18,
+    "email": "member18@example.com",
+    "created_at": 1767892977065
+   },
+   {
+    "id": 19,
+    "email": "member19@example.com",
+    "created_at": 1781998007094
+   },
+   {
+    "id": 20,
+    "email": "member20@example.com",
+    "created_at": 1783765151493
+   },
+   {
+    "id": 21,
+    "email": "member21@example.com",
+    "created_at": 1717459200000
+   },
+   {
+    "id": 22,
+    "email": "member22@example.com",
+    "created_at": 1767246062559
+   },
+   {
+    "id": 23,
+    "email": "member23@example.com",
+    "created_at": 1748212709492
+   },
+   {
+    "id": 24,
+    "email": "member24@example.com",
+    "created_at": 1720828800000
+   },
+   {
+    "id": 25,
+    "email": "member25@example.com",
+    "created_at": 1778076999069
+   },
+   {
+    "id": 26,
+    "email": "member26@example.com",
+    "created_at": 1709337600000
+   },
+   {
+    "id": 27,
+    "email": "member27@example.com",
+    "created_at": 1787844957501
+   },
+   {
+    "id": 28,
+    "email": "member28@example.com",
+    "created_at": 1721088000000
+   },
+   {
+    "id": 29,
+    "email": "member29@example.com",
+    "created_at": 1736380800000
+   },
+   {
+    "id": 30,
+    "email": "member30@example.com",
+    "created_at": 1724716800000
+   },
+   {
+    "id": 31,
+    "email": "member31@example.com",
+    "created_at": 1759743028766
+   },
+   {
+    "id": 32,
+    "email": "member32@example.com",
+    "created_at": 1783543239415
+   },
+   {
+    "id": 33,
+    "email": "member33@example.com",
+    "created_at": 1719964800000
+   },
+   {
+    "id": 34,
+    "email": "member34@example.com",
+    "created_at": 1721520000000
+   },
+   {
+    "id": 35,
+    "email": "member35@example.com",
+    "created_at": 1710633600000
+   },
+   {
+    "id": 36,
+    "email": "member36@example.com",
+    "created_at": 1763474458265
+   },
+   {
+    "id": 37,
+    "email": "member37@example.com",
+    "created_at": 1713830400000
+   },
+   {
+    "id": 38,
+    "email": "member38@example.com",
+    "created_at": 1776079673706
+   },
+   {
+    "id": 39,
+    "email": "member39@example.com",
+    "created_at": 1760853654645
+   },
+   {
+    "id": 40,
+    "email": "member40@example.com",
+    "created_at": 1773461160651
+   }
+  ]
+ },
+ "bookings": [
+  {
+   "id": 1,
+   "user_id": 29,
+   "class_id": 2,
+   "studio_id": 1,
+   "status": "pending",
+   "created_at": 1773075595524,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 3100,
+   "occurs_at": 1773658800000
+  },
+  {
+   "id": 2,
+   "user_id": 7,
+   "class_id": 5,
+   "studio_id": 2,
+   "status": "paid",
+   "created_at": 1750618171382,
+   "paid_at": 1750618210429,
+   "cancelled_at": null,
+   "price_cents": 2600,
+   "occurs_at": 1750762800000
+  },
+  {
+   "id": 3,
+   "user_id": 31,
+   "class_id": 5,
+   "studio_id": 2,
+   "status": "paid",
+   "created_at": 1776901983326,
+   "paid_at": 1776902093026,
+   "cancelled_at": null,
+   "price_cents": 2600,
+   "occurs_at": 1777374000000
+  },
+  {
+   "id": 4,
+   "user_id": 21,
+   "class_id": 3,
+   "studio_id": 1,
+   "status": "pending",
+   "created_at": 1761074658652,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 3900,
+   "occurs_at": 1761562800000
+  },
+  {
+   "id": 5,
+   "user_id": 21,
+   "class_id": 4,
+   "studio_id": 2,
+   "status": "paid",
+   "created_at": 1766811506361,
+   "paid_at": 1766811665021,
+   "cancelled_at": null,
+   "price_cents": 3700,
+   "occurs_at": 1766923200000
+  },
+  {
+   "id": 6,
+   "user_id": 29,
+   "class_id": 2,
+   "studio_id": 1,
+   "status": "paid",
+   "created_at": 1781471700681,
+   "paid_at": 1781471836064,
+   "cancelled_at": null,
+   "price_cents": 3100,
+   "occurs_at": 1781521200000
+  },
+  {
+   "id": 7,
+   "user_id": 29,
+   "class_id": 9,
+   "studio_id": 3,
+   "status": "pending",
+   "created_at": 1785188187954,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 3900,
+   "occurs_at": 1785513600000
+  },
+  {
+   "id": 8,
+   "user_id": 29,
+   "class_id": 8,
+   "studio_id": 3,
+   "status": "paid",
+   "created_at": 1777956264411,
+   "paid_at": 1777956375847,
+   "cancelled_at": null,
+   "price_cents": 4900,
+   "occurs_at": 1778180400000
+  },
+  {
+   "id": 9,
+   "user_id": 7,
+   "class_id": 4,
+   "studio_id": 2,
+   "status": "pending",
+   "created_at": 1750852615937,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 3700,
+   "occurs_at": 1751198400000
+  },
+  {
+   "id": 10,
+   "user_id": 15,
+   "class_id": 1,
+   "studio_id": 1,
+   "status": "paid",
+   "created_at": 1767343293072,
+   "paid_at": 1767343403582,
+   "cancelled_at": null,
+   "price_cents": 5900,
+   "occurs_at": 1767535200000
+  },
+  {
+   "id": 11,
+   "user_id": 15,
+   "class_id": 9,
+   "studio_id": 3,
+   "status": "pending",
+   "created_at": 1768391393950,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 3900,
+   "occurs_at": 1768579200000
+  },
+  {
+   "id": 12,
+   "user_id": 28,
+   "class_id": 6,
+   "studio_id": 2,
+   "status": "cancelled",
+   "created_at": 1763623347668,
+   "paid_at": 1763623388249,
+   "cancelled_at": 1763868363820,
+   "price_cents": 5900,
+   "occurs_at": 1764010800000
+  },
+  {
+   "id": 13,
+   "user_id": 1,
+   "class_id": 6,
+   "studio_id": 2,
+   "status": "pending",
+   "created_at": 1767626950487,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 5900,
+   "occurs_at": 1767639600000
+  },
+  {
+   "id": 14,
+   "user_id": 1,
+   "class_id": 6,
+   "studio_id": 2,
+   "status": "paid",
+   "created_at": 1787923847293,
+   "paid_at": 1787923876991,
+   "cancelled_at": null,
+   "price_cents": 5900,
+   "occurs_at": 1788202800000
+  },
+  {
+   "id": 15,
+   "user_id": 10,
+   "class_id": 3,
+   "studio_id": 1,
+   "status": "paid",
+   "created_at": 1785608358575,
+   "paid_at": 1785608517919,
+   "cancelled_at": null,
+   "price_cents": 3900,
+   "occurs_at": 1785754800000
+  },
+  {
+   "id": 16,
+   "user_id": 3,
+   "class_id": 3,
+   "studio_id": 1,
+   "status": "paid",
+   "created_at": 1768910748819,
+   "paid_at": 1768910843921,
+   "cancelled_at": null,
+   "price_cents": 3900,
+   "occurs_at": 1769425200000
+  },
+  {
+   "id": 17,
+   "user_id": 26,
+   "class_id": 5,
+   "studio_id": 2,
+   "status": "paid",
+   "created_at": 1748770693193,
+   "paid_at": 1748770783288,
+   "cancelled_at": null,
+   "price_cents": 2600,
+   "occurs_at": 1748948400000
+  },
+  {
+   "id": 18,
+   "user_id": 1,
+   "class_id": 2,
+   "studio_id": 1,
+   "status": "pending",
+   "created_at": 1743359612377,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 3100,
+   "occurs_at": 1743418800000
+  },
+  {
+   "id": 19,
+   "user_id": 23,
+   "class_id": 7,
+   "studio_id": 3,
+   "status": "paid",
+   "created_at": 1763750441166,
+   "paid_at": 1763750596433,
+   "cancelled_at": null,
+   "price_cents": 1900,
+   "occurs_at": 1764169200000
+  },
+  {
+   "id": 20,
+   "user_id": 28,
+   "class_id": 2,
+   "studio_id": 1,
+   "status": "paid",
+   "created_at": 1772399249951,
+   "paid_at": 1772399327484,
+   "cancelled_at": null,
+   "price_cents": 3100,
+   "occurs_at": 1772449200000
+  },
+  {
+   "id": 21,
+   "user_id": 3,
+   "class_id": 7,
+   "studio_id": 3,
+   "status": "paid",
+   "created_at": 1778972487633,
+   "paid_at": 1778972518405,
+   "cancelled_at": null,
+   "price_cents": 1900,
+   "occurs_at": 1779289200000
+  },
+  {
+   "id": 22,
+   "user_id": 29,
+   "class_id": 2,
+   "studio_id": 1,
+   "status": "paid",
+   "created_at": 1761834505690,
+   "paid_at": 1761834659803,
+   "cancelled_at": null,
+   "price_cents": 3100,
+   "occurs_at": 1762167600000
+  },
+  {
+   "id": 23,
+   "user_id": 18,
+   "class_id": 1,
+   "studio_id": 1,
+   "status": "pending",
+   "created_at": 1786468084043,
+   "paid_at": null,
+   "cancelled_at": null,
+   "price_cents": 5900,
+   "occurs_at": 1786888800000
+  },
+  {
+   "id": 24,
+   "user_id": 30,
+   "class_id": 9,
+   "studio_id": 3,
+   "status": "paid",
+   "created_at": 1772906784173,
+   "paid_at": 1772906904167,
+   "cancelled_at": null,
+   "price_cents": 3900,
+   "occurs_at": 1773417600000
+  },
+  {
+   "id": 25,
+   "user_id": 36,
+   "class_id": 7,
+   "studio_id": 3,
+   "status": "paid",
+   "created_at": 1771316284740,
+   "paid_at": 1771316418479,
+   "cancelled_at": null,
+   "price_cents": 1900,
+   "occurs_at": 1771426800000
+  },
+  {
+   "id": 26,
+   "user_id": 40,
+   "class_id": 2,
+   "studio_id": 1,
+   "status": "cancelled",
+   "created_at": 1780322184576,
+   "paid_at": 1780322265890,
+   "cancelled_at": 1780616951174,
+   "price_cents": 3100,
+   "occurs_at": 1780916400000
+  }
+ ],
+ "events": [
+  {
+   "occurred_at": 1743359137265,
+   "user_id": 1,
+   "session_id": "957b071453b6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1743359150064,
+   "user_id": 1,
+   "session_id": "957b071453b6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1743359204293,
+   "user_id": 1,
+   "session_id": "957b071453b6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1743359278204,
+   "user_id": 1,
+   "session_id": "957b071453b6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1743359339499,
+   "user_id": 1,
+   "session_id": "957b071453b6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1743359612377,
+   "user_id": 1,
+   "session_id": "957b071453b6",
+   "studio_id": 1,
+   "booking_id": 18,
+   "class_id": 2,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1743558402688,
+   "user_id": 13,
+   "session_id": "d554a9f601c7",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1743558412126,
+   "user_id": 13,
+   "session_id": "d554a9f601c7",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1743558451176,
+   "user_id": 13,
+   "session_id": "d554a9f601c7",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1746299212660,
+   "user_id": null,
+   "session_id": "9147fd1e0341",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1746299308698,
+   "user_id": null,
+   "session_id": "9147fd1e0341",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1746456687091,
+   "user_id": 1,
+   "session_id": "65f455219e65",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1746456699984,
+   "user_id": 1,
+   "session_id": "65f455219e65",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1746456759464,
+   "user_id": 1,
+   "session_id": "65f455219e65",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1746456849275,
+   "user_id": 1,
+   "session_id": "65f455219e65",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1747447612378,
+   "user_id": 4,
+   "session_id": "4e9bf50ac5f3",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1748212709492,
+   "user_id": 23,
+   "session_id": "8442c55066de",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1748770279532,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1748770282788,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1748770288455,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1748770329592,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1748770431769,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1748770693193,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": 17,
+   "class_id": 5,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1748770783288,
+   "user_id": 26,
+   "session_id": "43ad8b0258a9",
+   "studio_id": 2,
+   "booking_id": 17,
+   "class_id": 5,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1749496034111,
+   "user_id": 1,
+   "session_id": "18927290c186",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1749496050845,
+   "user_id": 1,
+   "session_id": "18927290c186",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1749496137963,
+   "user_id": 1,
+   "session_id": "18927290c186",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1749523557278,
+   "user_id": null,
+   "session_id": "fada3dd732fe",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1749523587509,
+   "user_id": null,
+   "session_id": "fada3dd732fe",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1749523608868,
+   "user_id": null,
+   "session_id": "fada3dd732fe",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1750617945008,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1750617946132,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1750617974404,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1750618023800,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1750618113315,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1750618171382,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": 2,
+   "class_id": 5,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1750618210429,
+   "user_id": 7,
+   "session_id": "8b5f1c7373df",
+   "studio_id": 2,
+   "booking_id": 2,
+   "class_id": 5,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1750852232699,
+   "user_id": 7,
+   "session_id": "608258ab3a64",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1750852249813,
+   "user_id": 7,
+   "session_id": "608258ab3a64",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1750852330315,
+   "user_id": 7,
+   "session_id": "608258ab3a64",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1750852615937,
+   "user_id": 7,
+   "session_id": "608258ab3a64",
+   "studio_id": 2,
+   "booking_id": 9,
+   "class_id": 4,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1752096015698,
+   "user_id": null,
+   "session_id": "4282d49cab36",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1752096047226,
+   "user_id": null,
+   "session_id": "4282d49cab36",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1752096099138,
+   "user_id": null,
+   "session_id": "4282d49cab36",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1753275819339,
+   "user_id": null,
+   "session_id": "33e00fe79b28",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1753275829772,
+   "user_id": null,
+   "session_id": "33e00fe79b28",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1753275932134,
+   "user_id": null,
+   "session_id": "33e00fe79b28",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1753276029491,
+   "user_id": null,
+   "session_id": "33e00fe79b28",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1754338879453,
+   "user_id": 23,
+   "session_id": "c1814a0f4af3",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1754338895852,
+   "user_id": 23,
+   "session_id": "c1814a0f4af3",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1754338942244,
+   "user_id": 23,
+   "session_id": "c1814a0f4af3",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1754339008809,
+   "user_id": 23,
+   "session_id": "c1814a0f4af3",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1754339116687,
+   "user_id": 23,
+   "session_id": "c1814a0f4af3",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1755513598650,
+   "user_id": null,
+   "session_id": "5643985df0d0",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1755513619560,
+   "user_id": null,
+   "session_id": "5643985df0d0",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1755513713261,
+   "user_id": null,
+   "session_id": "5643985df0d0",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1755513819692,
+   "user_id": null,
+   "session_id": "5643985df0d0",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1755513904131,
+   "user_id": null,
+   "session_id": "5643985df0d0",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1756185295454,
+   "user_id": null,
+   "session_id": "5107fdc24a19",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1756185387730,
+   "user_id": null,
+   "session_id": "5107fdc24a19",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1758038517687,
+   "user_id": null,
+   "session_id": "1fa5ce78c5d6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1758038551198,
+   "user_id": null,
+   "session_id": "1fa5ce78c5d6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "guitar lessons"
+   }
+  },
+  {
+   "occurred_at": 1758038605063,
+   "user_id": null,
+   "session_id": "1fa5ce78c5d6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1759614665808,
+   "user_id": null,
+   "session_id": "706b6c26b2dc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1759614692170,
+   "user_id": null,
+   "session_id": "706b6c26b2dc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1759667835109,
+   "user_id": null,
+   "session_id": "719d35b0f132",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1759667938226,
+   "user_id": null,
+   "session_id": "719d35b0f132",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1759743028766,
+   "user_id": 31,
+   "session_id": "a50ded498456",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1760603643159,
+   "user_id": 3,
+   "session_id": "fd2ef8635df6",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1760853654645,
+   "user_id": 39,
+   "session_id": "bab9d1ce26bc",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1761074337606,
+   "user_id": 21,
+   "session_id": "188229b46b15",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1761074361870,
+   "user_id": 21,
+   "session_id": "188229b46b15",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1761074458068,
+   "user_id": 21,
+   "session_id": "188229b46b15",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1761074516654,
+   "user_id": 21,
+   "session_id": "188229b46b15",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1761074616140,
+   "user_id": 21,
+   "session_id": "188229b46b15",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1761074658652,
+   "user_id": 21,
+   "session_id": "188229b46b15",
+   "studio_id": 1,
+   "booking_id": 4,
+   "class_id": 3,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1761661122451,
+   "user_id": 3,
+   "session_id": "684326ed333e",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1761661129206,
+   "user_id": 3,
+   "session_id": "684326ed333e",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1761661184529,
+   "user_id": 3,
+   "session_id": "684326ed333e",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1761661291698,
+   "user_id": 3,
+   "session_id": "684326ed333e",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1761661358056,
+   "user_id": 3,
+   "session_id": "684326ed333e",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1761834180152,
+   "user_id": 29,
+   "session_id": "1685ead4c5fc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1761834189530,
+   "user_id": 29,
+   "session_id": "1685ead4c5fc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1761834263558,
+   "user_id": 29,
+   "session_id": "1685ead4c5fc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1761834505690,
+   "user_id": 29,
+   "session_id": "1685ead4c5fc",
+   "studio_id": 1,
+   "booking_id": 22,
+   "class_id": 2,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1761834659803,
+   "user_id": 29,
+   "session_id": "1685ead4c5fc",
+   "studio_id": 1,
+   "booking_id": 22,
+   "class_id": 2,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1761924640469,
+   "user_id": null,
+   "session_id": "955ec578e900",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1761924671818,
+   "user_id": null,
+   "session_id": "955ec578e900",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1761924770067,
+   "user_id": null,
+   "session_id": "955ec578e900",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1762446861156,
+   "user_id": 23,
+   "session_id": "b22539baa770",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1762446960268,
+   "user_id": 23,
+   "session_id": "b22539baa770",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1762447021139,
+   "user_id": 23,
+   "session_id": "b22539baa770",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1762543325861,
+   "user_id": null,
+   "session_id": "373c5f631c10",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1762543357271,
+   "user_id": null,
+   "session_id": "373c5f631c10",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1762543409458,
+   "user_id": null,
+   "session_id": "373c5f631c10",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1762767089601,
+   "user_id": 2,
+   "session_id": "d12b792ed1cc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1762767101000,
+   "user_id": 2,
+   "session_id": "d12b792ed1cc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1762767178543,
+   "user_id": 2,
+   "session_id": "d12b792ed1cc",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1763096988077,
+   "user_id": null,
+   "session_id": "3eb5f5498fd0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1763096998165,
+   "user_id": null,
+   "session_id": "3eb5f5498fd0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1763097106198,
+   "user_id": null,
+   "session_id": "3eb5f5498fd0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1763097160768,
+   "user_id": null,
+   "session_id": "3eb5f5498fd0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1763097184351,
+   "user_id": null,
+   "session_id": "3eb5f5498fd0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1763474458265,
+   "user_id": 36,
+   "session_id": "76be8a2b69d6",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1763623110625,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1763623118060,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1763623198587,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1763623308025,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1763623347668,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": 12,
+   "class_id": 6,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1763623388249,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": 12,
+   "class_id": 6,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1763750135072,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1763750139847,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1763750148240,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1763750227369,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1763750263567,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1763750441166,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": 19,
+   "class_id": 7,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1763750596433,
+   "user_id": 23,
+   "session_id": "b73376c513e1",
+   "studio_id": 3,
+   "booking_id": 19,
+   "class_id": 7,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1763868363820,
+   "user_id": 28,
+   "session_id": "1faa098b60a4",
+   "studio_id": 2,
+   "booking_id": 12,
+   "class_id": 6,
+   "event_name": "booking_cancelled",
+   "properties": {
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1763886077147,
+   "user_id": null,
+   "session_id": "d70de4a34881",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1763886100680,
+   "user_id": null,
+   "session_id": "d70de4a34881",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1763886196567,
+   "user_id": null,
+   "session_id": "d70de4a34881",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1763886291815,
+   "user_id": null,
+   "session_id": "d70de4a34881",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1763976418550,
+   "user_id": 7,
+   "session_id": "ee5419221e85",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1763976432053,
+   "user_id": 7,
+   "session_id": "ee5419221e85",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1763976471368,
+   "user_id": 7,
+   "session_id": "ee5419221e85",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1763976502031,
+   "user_id": 7,
+   "session_id": "ee5419221e85",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1764086225852,
+   "user_id": 26,
+   "session_id": "8fb10e4b000e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1764086239656,
+   "user_id": 26,
+   "session_id": "8fb10e4b000e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1764086264630,
+   "user_id": 26,
+   "session_id": "8fb10e4b000e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1764086343600,
+   "user_id": 26,
+   "session_id": "8fb10e4b000e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1765125166870,
+   "user_id": null,
+   "session_id": "af567e0983bf",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1765125204025,
+   "user_id": null,
+   "session_id": "af567e0983bf",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1765125247700,
+   "user_id": null,
+   "session_id": "af567e0983bf",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1766313180596,
+   "user_id": null,
+   "session_id": "d9f5af303f5b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1766313207620,
+   "user_id": null,
+   "session_id": "d9f5af303f5b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1766313287050,
+   "user_id": null,
+   "session_id": "d9f5af303f5b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1766313341961,
+   "user_id": null,
+   "session_id": "d9f5af303f5b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1766313407801,
+   "user_id": null,
+   "session_id": "d9f5af303f5b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1766601173897,
+   "user_id": null,
+   "session_id": "f0760473f238",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1766601230505,
+   "user_id": null,
+   "session_id": "f0760473f238",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1766601311618,
+   "user_id": null,
+   "session_id": "f0760473f238",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1766811243858,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1766811258294,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1766811284992,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1766811325004,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1766811403742,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1766811443601,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1766811506361,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": 5,
+   "class_id": 4,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1766811665021,
+   "user_id": 21,
+   "session_id": "1df461873a6f",
+   "studio_id": 2,
+   "booking_id": 5,
+   "class_id": 4,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1766944043206,
+   "user_id": null,
+   "session_id": "80277d4e7cf8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1766944129610,
+   "user_id": null,
+   "session_id": "80277d4e7cf8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1766944156988,
+   "user_id": null,
+   "session_id": "80277d4e7cf8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1766944275660,
+   "user_id": null,
+   "session_id": "80277d4e7cf8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1767246062559,
+   "user_id": 22,
+   "session_id": "69001b6332a1",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1767342734814,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1767342757209,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "guitar lessons"
+   }
+  },
+  {
+   "occurred_at": 1767342855992,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1767342917270,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1767343034106,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1767343293072,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": 10,
+   "class_id": 1,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1767343403582,
+   "user_id": 15,
+   "session_id": "c6da6c2cde51",
+   "studio_id": 1,
+   "booking_id": 10,
+   "class_id": 1,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1767626735250,
+   "user_id": 1,
+   "session_id": "da93cc3de58a",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1767626747301,
+   "user_id": 1,
+   "session_id": "da93cc3de58a",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1767626752833,
+   "user_id": 1,
+   "session_id": "da93cc3de58a",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1767626864309,
+   "user_id": 1,
+   "session_id": "da93cc3de58a",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1767626950487,
+   "user_id": 1,
+   "session_id": "da93cc3de58a",
+   "studio_id": 2,
+   "booking_id": 13,
+   "class_id": 6,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1767718143236,
+   "user_id": 26,
+   "session_id": "a1e227c2cdff",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1767718144817,
+   "user_id": 26,
+   "session_id": "a1e227c2cdff",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1767718237870,
+   "user_id": 26,
+   "session_id": "a1e227c2cdff",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1767718329758,
+   "user_id": 26,
+   "session_id": "a1e227c2cdff",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1767718435705,
+   "user_id": 26,
+   "session_id": "a1e227c2cdff",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1767892977065,
+   "user_id": 18,
+   "session_id": "17f02864c73d",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1768391048457,
+   "user_id": 15,
+   "session_id": "1586c94b5cea",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1768391061773,
+   "user_id": 15,
+   "session_id": "1586c94b5cea",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1768391094718,
+   "user_id": 15,
+   "session_id": "1586c94b5cea",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1768391180613,
+   "user_id": 15,
+   "session_id": "1586c94b5cea",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1768391290708,
+   "user_id": 15,
+   "session_id": "1586c94b5cea",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1768391393950,
+   "user_id": 15,
+   "session_id": "1586c94b5cea",
+   "studio_id": 3,
+   "booking_id": 11,
+   "class_id": 9,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1768399415474,
+   "user_id": null,
+   "session_id": "731584aff1ed",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1768399478514,
+   "user_id": null,
+   "session_id": "731584aff1ed",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1768910440526,
+   "user_id": 3,
+   "session_id": "65d38852820d",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1768910457724,
+   "user_id": 3,
+   "session_id": "65d38852820d",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1768910520831,
+   "user_id": 3,
+   "session_id": "65d38852820d",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1768910748819,
+   "user_id": 3,
+   "session_id": "65d38852820d",
+   "studio_id": 1,
+   "booking_id": 16,
+   "class_id": 3,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1768910843921,
+   "user_id": 3,
+   "session_id": "65d38852820d",
+   "studio_id": 1,
+   "booking_id": 16,
+   "class_id": 3,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1769051991560,
+   "user_id": 8,
+   "session_id": "d50be50ae9f0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1769341466139,
+   "user_id": 18,
+   "session_id": "3820fd2bb248",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1769341479527,
+   "user_id": 18,
+   "session_id": "3820fd2bb248",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1769341591683,
+   "user_id": 18,
+   "session_id": "3820fd2bb248",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1769341702432,
+   "user_id": 18,
+   "session_id": "3820fd2bb248",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1769341745810,
+   "user_id": 18,
+   "session_id": "3820fd2bb248",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1769348526997,
+   "user_id": 22,
+   "session_id": "1e0c80c7fd2e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1769348552890,
+   "user_id": 22,
+   "session_id": "1e0c80c7fd2e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1769348655279,
+   "user_id": 22,
+   "session_id": "1e0c80c7fd2e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1769348737052,
+   "user_id": 22,
+   "session_id": "1e0c80c7fd2e",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1769560693160,
+   "user_id": null,
+   "session_id": "c2515ee9bd03",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1769560699666,
+   "user_id": null,
+   "session_id": "c2515ee9bd03",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "guitar lessons"
+   }
+  },
+  {
+   "occurred_at": 1769560773821,
+   "user_id": null,
+   "session_id": "c2515ee9bd03",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1769560892402,
+   "user_id": null,
+   "session_id": "c2515ee9bd03",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1769560945741,
+   "user_id": null,
+   "session_id": "c2515ee9bd03",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1769622603707,
+   "user_id": null,
+   "session_id": "03c25ca68cba",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1769622617877,
+   "user_id": null,
+   "session_id": "03c25ca68cba",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1769622716754,
+   "user_id": null,
+   "session_id": "03c25ca68cba",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1769622769542,
+   "user_id": null,
+   "session_id": "03c25ca68cba",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1769622798773,
+   "user_id": null,
+   "session_id": "03c25ca68cba",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1770009270719,
+   "user_id": null,
+   "session_id": "4541a412c058",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1770009296564,
+   "user_id": null,
+   "session_id": "4541a412c058",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1770009374763,
+   "user_id": null,
+   "session_id": "4541a412c058",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1770009457647,
+   "user_id": null,
+   "session_id": "4541a412c058",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1770577802650,
+   "user_id": null,
+   "session_id": "d629730d4769",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1770577830131,
+   "user_id": null,
+   "session_id": "d629730d4769",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1770577853363,
+   "user_id": null,
+   "session_id": "d629730d4769",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1770577888423,
+   "user_id": null,
+   "session_id": "d629730d4769",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1770881559862,
+   "user_id": 36,
+   "session_id": "d99baab0aadf",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1770881651579,
+   "user_id": 36,
+   "session_id": "d99baab0aadf",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1770881685675,
+   "user_id": 36,
+   "session_id": "d99baab0aadf",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1770881795133,
+   "user_id": 36,
+   "session_id": "d99baab0aadf",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1771161442239,
+   "user_id": 22,
+   "session_id": "697a205c9a28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1771161460836,
+   "user_id": 22,
+   "session_id": "697a205c9a28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1771161488511,
+   "user_id": 22,
+   "session_id": "697a205c9a28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1771161509246,
+   "user_id": 22,
+   "session_id": "697a205c9a28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1771175864544,
+   "user_id": null,
+   "session_id": "0201ef0267b5",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1771175967229,
+   "user_id": null,
+   "session_id": "0201ef0267b5",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1771315860828,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1771315875825,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1771315976559,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1771316093278,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1771316133712,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1771316284740,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": 25,
+   "class_id": 7,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1771316418479,
+   "user_id": 36,
+   "session_id": "8506f8ea6a70",
+   "studio_id": 3,
+   "booking_id": 25,
+   "class_id": 7,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1771957850600,
+   "user_id": 29,
+   "session_id": "5e15e5145980",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1771957899204,
+   "user_id": 29,
+   "session_id": "5e15e5145980",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1771957947868,
+   "user_id": 29,
+   "session_id": "5e15e5145980",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1772308981186,
+   "user_id": 8,
+   "session_id": "8d316fa13a80",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1772309007639,
+   "user_id": 8,
+   "session_id": "8d316fa13a80",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1772398932101,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1772398940133,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1772398979489,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1772399070798,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1772399152594,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1772399249951,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": 20,
+   "class_id": 2,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1772399327484,
+   "user_id": 28,
+   "session_id": "f59b4dd96262",
+   "studio_id": 1,
+   "booking_id": 20,
+   "class_id": 2,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1772461760038,
+   "user_id": null,
+   "session_id": "bc6ea69ba1fd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1772461783092,
+   "user_id": null,
+   "session_id": "bc6ea69ba1fd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1772461810456,
+   "user_id": null,
+   "session_id": "bc6ea69ba1fd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1772906444480,
+   "user_id": 30,
+   "session_id": "cf517da24ba6",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1772906522075,
+   "user_id": 30,
+   "session_id": "cf517da24ba6",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1772906585105,
+   "user_id": 30,
+   "session_id": "cf517da24ba6",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1772906606984,
+   "user_id": 30,
+   "session_id": "cf517da24ba6",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1772906784173,
+   "user_id": 30,
+   "session_id": "cf517da24ba6",
+   "studio_id": 3,
+   "booking_id": 24,
+   "class_id": 9,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1772906904167,
+   "user_id": 30,
+   "session_id": "cf517da24ba6",
+   "studio_id": 3,
+   "booking_id": 24,
+   "class_id": 9,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1773075200816,
+   "user_id": 29,
+   "session_id": "f3f486bc9b99",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1773075215858,
+   "user_id": 29,
+   "session_id": "f3f486bc9b99",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1773075321585,
+   "user_id": 29,
+   "session_id": "f3f486bc9b99",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1773075432381,
+   "user_id": 29,
+   "session_id": "f3f486bc9b99",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1773075595524,
+   "user_id": 29,
+   "session_id": "f3f486bc9b99",
+   "studio_id": 1,
+   "booking_id": 1,
+   "class_id": 2,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1773087080658,
+   "user_id": null,
+   "session_id": "da76485cdf73",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1773087178549,
+   "user_id": null,
+   "session_id": "da76485cdf73",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1773087261047,
+   "user_id": null,
+   "session_id": "da76485cdf73",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1773087287494,
+   "user_id": null,
+   "session_id": "da76485cdf73",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1773129499573,
+   "user_id": null,
+   "session_id": "786a9d13d1d5",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1773129599920,
+   "user_id": null,
+   "session_id": "786a9d13d1d5",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1773129687169,
+   "user_id": null,
+   "session_id": "786a9d13d1d5",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1773268953509,
+   "user_id": 6,
+   "session_id": "6d06c2291efa",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1773461160651,
+   "user_id": 40,
+   "session_id": "7c61d2233c08",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1774878535923,
+   "user_id": 30,
+   "session_id": "bdabb46a5379",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1774878547447,
+   "user_id": 30,
+   "session_id": "bdabb46a5379",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1774878575221,
+   "user_id": 30,
+   "session_id": "bdabb46a5379",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1774878689746,
+   "user_id": 30,
+   "session_id": "bdabb46a5379",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1775033044606,
+   "user_id": null,
+   "session_id": "5427ee389755",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1775033123275,
+   "user_id": null,
+   "session_id": "5427ee389755",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1775033241685,
+   "user_id": null,
+   "session_id": "5427ee389755",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1775033310377,
+   "user_id": null,
+   "session_id": "5427ee389755",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1775158792125,
+   "user_id": null,
+   "session_id": "2a6bb786b859",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1775158816029,
+   "user_id": null,
+   "session_id": "2a6bb786b859",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1775158904425,
+   "user_id": null,
+   "session_id": "2a6bb786b859",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1775158946072,
+   "user_id": null,
+   "session_id": "2a6bb786b859",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1776079673706,
+   "user_id": 38,
+   "session_id": "a4f2fef216c8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1776266711946,
+   "user_id": null,
+   "session_id": "740579393139",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1776266725906,
+   "user_id": null,
+   "session_id": "740579393139",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1776266770264,
+   "user_id": null,
+   "session_id": "740579393139",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1776333476580,
+   "user_id": null,
+   "session_id": "cbd635666180",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1776333511681,
+   "user_id": null,
+   "session_id": "cbd635666180",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1776333609077,
+   "user_id": null,
+   "session_id": "cbd635666180",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1776621221792,
+   "user_id": 13,
+   "session_id": "029346217bfa",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1776621227652,
+   "user_id": 13,
+   "session_id": "029346217bfa",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1776621249775,
+   "user_id": 13,
+   "session_id": "029346217bfa",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1776621346737,
+   "user_id": 13,
+   "session_id": "029346217bfa",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1776621411713,
+   "user_id": 13,
+   "session_id": "029346217bfa",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1776621515369,
+   "user_id": 13,
+   "session_id": "029346217bfa",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1776642634229,
+   "user_id": 36,
+   "session_id": "dc65e457d6f8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1776642663150,
+   "user_id": 36,
+   "session_id": "dc65e457d6f8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1776642709114,
+   "user_id": 36,
+   "session_id": "dc65e457d6f8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1776642801150,
+   "user_id": 36,
+   "session_id": "dc65e457d6f8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1776642899569,
+   "user_id": 36,
+   "session_id": "dc65e457d6f8",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1776752194872,
+   "user_id": null,
+   "session_id": "dc7293486353",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1776752220591,
+   "user_id": null,
+   "session_id": "dc7293486353",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1776752336003,
+   "user_id": null,
+   "session_id": "dc7293486353",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1776752387242,
+   "user_id": null,
+   "session_id": "dc7293486353",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1776901683827,
+   "user_id": 31,
+   "session_id": "44a94762e4c7",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1776901740880,
+   "user_id": 31,
+   "session_id": "44a94762e4c7",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1776901769789,
+   "user_id": 31,
+   "session_id": "44a94762e4c7",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1776901983326,
+   "user_id": 31,
+   "session_id": "44a94762e4c7",
+   "studio_id": 2,
+   "booking_id": 3,
+   "class_id": 5,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1776902093026,
+   "user_id": 31,
+   "session_id": "44a94762e4c7",
+   "studio_id": 2,
+   "booking_id": 3,
+   "class_id": 5,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1777119769837,
+   "user_id": 26,
+   "session_id": "6d5ca8f00458",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1777119777813,
+   "user_id": 26,
+   "session_id": "6d5ca8f00458",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1777119875378,
+   "user_id": 26,
+   "session_id": "6d5ca8f00458",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1777119908804,
+   "user_id": 26,
+   "session_id": "6d5ca8f00458",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1777120023767,
+   "user_id": 26,
+   "session_id": "6d5ca8f00458",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1777217281722,
+   "user_id": 4,
+   "session_id": "eb18550fa845",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1777217298705,
+   "user_id": 4,
+   "session_id": "eb18550fa845",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1777217373638,
+   "user_id": 4,
+   "session_id": "eb18550fa845",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1777217416890,
+   "user_id": 4,
+   "session_id": "eb18550fa845",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1777228733690,
+   "user_id": 29,
+   "session_id": "d617fe9f0e67",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1777228750639,
+   "user_id": 29,
+   "session_id": "d617fe9f0e67",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1777228781437,
+   "user_id": 29,
+   "session_id": "d617fe9f0e67",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1777955877905,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1777955882642,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1777955956583,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1777956040768,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1777956127410,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1777956264411,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": 8,
+   "class_id": 8,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1777956375847,
+   "user_id": 29,
+   "session_id": "1198397ea9f4",
+   "studio_id": 3,
+   "booking_id": 8,
+   "class_id": 8,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1778331277493,
+   "user_id": 13,
+   "session_id": "09d082d305b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1778331282414,
+   "user_id": 13,
+   "session_id": "09d082d305b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1778331308393,
+   "user_id": 13,
+   "session_id": "09d082d305b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1778331400878,
+   "user_id": 13,
+   "session_id": "09d082d305b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1778400297008,
+   "user_id": 10,
+   "session_id": "b037da8e2ecb",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1778500294621,
+   "user_id": 23,
+   "session_id": "c1958864ae39",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1778500373497,
+   "user_id": 23,
+   "session_id": "c1958864ae39",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1778500433380,
+   "user_id": 23,
+   "session_id": "c1958864ae39",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1778500516046,
+   "user_id": 23,
+   "session_id": "c1958864ae39",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1778944097661,
+   "user_id": 39,
+   "session_id": "eb8a032fea56",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1778944204418,
+   "user_id": 39,
+   "session_id": "eb8a032fea56",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1778972246880,
+   "user_id": 3,
+   "session_id": "30aa46bea6bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "ios"
+   }
+  },
+  {
+   "occurred_at": 1778972250358,
+   "user_id": 3,
+   "session_id": "30aa46bea6bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1778972355664,
+   "user_id": 3,
+   "session_id": "30aa46bea6bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1778972382286,
+   "user_id": 3,
+   "session_id": "30aa46bea6bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1778972487633,
+   "user_id": 3,
+   "session_id": "30aa46bea6bd",
+   "studio_id": 3,
+   "booking_id": 21,
+   "class_id": 7,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1778972518405,
+   "user_id": 3,
+   "session_id": "30aa46bea6bd",
+   "studio_id": 3,
+   "booking_id": 21,
+   "class_id": 7,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1779111228883,
+   "user_id": null,
+   "session_id": "6b9df83da15c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1779111329992,
+   "user_id": null,
+   "session_id": "6b9df83da15c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1779111414617,
+   "user_id": null,
+   "session_id": "6b9df83da15c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1779111508932,
+   "user_id": null,
+   "session_id": "6b9df83da15c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1779557389249,
+   "user_id": 6,
+   "session_id": "79aaaf7fb9d4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1779557422703,
+   "user_id": 6,
+   "session_id": "79aaaf7fb9d4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "pottery beginners"
+   }
+  },
+  {
+   "occurred_at": 1779557535414,
+   "user_id": 6,
+   "session_id": "79aaaf7fb9d4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1779557602898,
+   "user_id": 6,
+   "session_id": "79aaaf7fb9d4",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1779669071756,
+   "user_id": null,
+   "session_id": "b3211405858a",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1779669104633,
+   "user_id": null,
+   "session_id": "b3211405858a",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1779669200634,
+   "user_id": null,
+   "session_id": "b3211405858a",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1779669247721,
+   "user_id": null,
+   "session_id": "b3211405858a",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1779696937815,
+   "user_id": null,
+   "session_id": "7adb9c8c999a",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1779696974523,
+   "user_id": null,
+   "session_id": "7adb9c8c999a",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1779697077006,
+   "user_id": null,
+   "session_id": "7adb9c8c999a",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1779697115309,
+   "user_id": null,
+   "session_id": "7adb9c8c999a",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1779697205363,
+   "user_id": null,
+   "session_id": "7adb9c8c999a",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1780223466924,
+   "user_id": null,
+   "session_id": "2c4bd02be4da",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1780223503151,
+   "user_id": null,
+   "session_id": "2c4bd02be4da",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1780223540197,
+   "user_id": null,
+   "session_id": "2c4bd02be4da",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1780321754158,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1780321768861,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1780321867813,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1780321889210,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1780321909664,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1780322184576,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": 26,
+   "class_id": 2,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1780322265890,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": 26,
+   "class_id": 2,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1780555578686,
+   "user_id": 24,
+   "session_id": "3b0f869b6a73",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1780555615540,
+   "user_id": 24,
+   "session_id": "3b0f869b6a73",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1780593142041,
+   "user_id": null,
+   "session_id": "31841f06ca28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1780593167815,
+   "user_id": null,
+   "session_id": "31841f06ca28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1780593222309,
+   "user_id": null,
+   "session_id": "31841f06ca28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1780593248568,
+   "user_id": null,
+   "session_id": "31841f06ca28",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1780616951174,
+   "user_id": 40,
+   "session_id": "2257eada2224",
+   "studio_id": 1,
+   "booking_id": 26,
+   "class_id": 2,
+   "event_name": "booking_cancelled",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1780930728790,
+   "user_id": null,
+   "session_id": "ac5efd02c11e",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1780930747132,
+   "user_id": null,
+   "session_id": "ac5efd02c11e",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1780930816886,
+   "user_id": null,
+   "session_id": "ac5efd02c11e",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1780930885154,
+   "user_id": null,
+   "session_id": "ac5efd02c11e",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1780930959581,
+   "user_id": null,
+   "session_id": "ac5efd02c11e",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1781038640297,
+   "user_id": 4,
+   "session_id": "58f19e18429d",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1781038651016,
+   "user_id": 4,
+   "session_id": "58f19e18429d",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1781038685572,
+   "user_id": 4,
+   "session_id": "58f19e18429d",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1781040467210,
+   "user_id": null,
+   "session_id": "11b0a9104f7b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1781040477514,
+   "user_id": null,
+   "session_id": "11b0a9104f7b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1781040514638,
+   "user_id": null,
+   "session_id": "11b0a9104f7b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1781040600577,
+   "user_id": null,
+   "session_id": "11b0a9104f7b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1781040663280,
+   "user_id": null,
+   "session_id": "11b0a9104f7b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1781115535943,
+   "user_id": null,
+   "session_id": "704b77bb29b3",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1781115562874,
+   "user_id": null,
+   "session_id": "704b77bb29b3",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1781115618849,
+   "user_id": null,
+   "session_id": "704b77bb29b3",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1781208776162,
+   "user_id": 13,
+   "session_id": "deb3a018434c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "android"
+   }
+  },
+  {
+   "occurred_at": 1781208785531,
+   "user_id": 13,
+   "session_id": "deb3a018434c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1781208821028,
+   "user_id": 13,
+   "session_id": "deb3a018434c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1781208843836,
+   "user_id": 13,
+   "session_id": "deb3a018434c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1781208939181,
+   "user_id": 13,
+   "session_id": "deb3a018434c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1781209022031,
+   "user_id": 13,
+   "session_id": "deb3a018434c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1781354750468,
+   "user_id": 39,
+   "session_id": "ccc8ee8fe5ec",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1781354788502,
+   "user_id": 39,
+   "session_id": "ccc8ee8fe5ec",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1781354831998,
+   "user_id": 39,
+   "session_id": "ccc8ee8fe5ec",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1781471317348,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1781471326826,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1781471358806,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "guitar lessons"
+   }
+  },
+  {
+   "occurred_at": 1781471394796,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1781471463216,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1781471700681,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": 6,
+   "class_id": 2,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1781471836064,
+   "user_id": 29,
+   "session_id": "0b9a30372d94",
+   "studio_id": 1,
+   "booking_id": 6,
+   "class_id": 2,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1782179726589,
+   "user_id": 38,
+   "session_id": "a883bc7358b1",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1782179749964,
+   "user_id": 38,
+   "session_id": "a883bc7358b1",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1782179843869,
+   "user_id": 38,
+   "session_id": "a883bc7358b1",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1782179904863,
+   "user_id": 38,
+   "session_id": "a883bc7358b1",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 5,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 5,
+    "price_cents": 2600
+   }
+  },
+  {
+   "occurred_at": 1782180022943,
+   "user_id": 38,
+   "session_id": "a883bc7358b1",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1782308397210,
+   "user_id": null,
+   "session_id": "a514f124b0b0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1782308478629,
+   "user_id": null,
+   "session_id": "a514f124b0b0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1782308504988,
+   "user_id": null,
+   "session_id": "a514f124b0b0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1782308547500,
+   "user_id": null,
+   "session_id": "a514f124b0b0",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1783497212437,
+   "user_id": 15,
+   "session_id": "efcaf13aadfc",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1783497325709,
+   "user_id": 15,
+   "session_id": "efcaf13aadfc",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1783497353149,
+   "user_id": 15,
+   "session_id": "efcaf13aadfc",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1783497422410,
+   "user_id": 15,
+   "session_id": "efcaf13aadfc",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1783540415534,
+   "user_id": null,
+   "session_id": "2d19ea3c46bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1783540437984,
+   "user_id": null,
+   "session_id": "2d19ea3c46bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1783540486906,
+   "user_id": null,
+   "session_id": "2d19ea3c46bd",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1783769270947,
+   "user_id": 13,
+   "session_id": "539068eb6fdd",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1783769365196,
+   "user_id": 13,
+   "session_id": "539068eb6fdd",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1783871013114,
+   "user_id": 12,
+   "session_id": "6860fe802f2c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1784068833797,
+   "user_id": null,
+   "session_id": "7509c7dc966b",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1784068855505,
+   "user_id": null,
+   "session_id": "7509c7dc966b",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "guitar lessons"
+   }
+  },
+  {
+   "occurred_at": 1784068944950,
+   "user_id": null,
+   "session_id": "7509c7dc966b",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1784069014802,
+   "user_id": null,
+   "session_id": "7509c7dc966b",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1784729818534,
+   "user_id": 5,
+   "session_id": "93882c42193f",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1784729827020,
+   "user_id": 5,
+   "session_id": "93882c42193f",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "newsletter",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1784729853364,
+   "user_id": 5,
+   "session_id": "93882c42193f",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1784729920653,
+   "user_id": 5,
+   "session_id": "93882c42193f",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1784729996663,
+   "user_id": 5,
+   "session_id": "93882c42193f",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1785187945604,
+   "user_id": 29,
+   "session_id": "4be290e605b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1785187952695,
+   "user_id": 29,
+   "session_id": "4be290e605b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1785187976425,
+   "user_id": 29,
+   "session_id": "4be290e605b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1785188050371,
+   "user_id": 29,
+   "session_id": "4be290e605b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1785188148312,
+   "user_id": 29,
+   "session_id": "4be290e605b9",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1785188187954,
+   "user_id": 29,
+   "session_id": "4be290e605b9",
+   "studio_id": 3,
+   "booking_id": 7,
+   "class_id": 9,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1785250266671,
+   "user_id": 40,
+   "session_id": "7fd78bc61a22",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1785250290880,
+   "user_id": 40,
+   "session_id": "7fd78bc61a22",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 4,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 4,
+    "price_cents": 3700
+   }
+  },
+  {
+   "occurred_at": 1785605773886,
+   "user_id": null,
+   "session_id": "ce9cd055f35c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1785605795908,
+   "user_id": null,
+   "session_id": "ce9cd055f35c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1785605822362,
+   "user_id": null,
+   "session_id": "ce9cd055f35c",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1785607963993,
+   "user_id": 10,
+   "session_id": "1904813d2ab5",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1785608059518,
+   "user_id": 10,
+   "session_id": "1904813d2ab5",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1785608110200,
+   "user_id": 10,
+   "session_id": "1904813d2ab5",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1785608358575,
+   "user_id": 10,
+   "session_id": "1904813d2ab5",
+   "studio_id": 1,
+   "booking_id": 15,
+   "class_id": 3,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1785608517919,
+   "user_id": 10,
+   "session_id": "1904813d2ab5",
+   "studio_id": 1,
+   "booking_id": 15,
+   "class_id": 3,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1785807280498,
+   "user_id": null,
+   "session_id": "ddcebb54c5c0",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1785807287254,
+   "user_id": null,
+   "session_id": "ddcebb54c5c0",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "guitar lessons"
+   }
+  },
+  {
+   "occurred_at": 1785807380590,
+   "user_id": null,
+   "session_id": "ddcebb54c5c0",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786002257689,
+   "user_id": 9,
+   "session_id": "2c2197272b9a",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "signup",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1786041627505,
+   "user_id": 12,
+   "session_id": "24f21bb0ca16",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "friend",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786041724920,
+   "user_id": 12,
+   "session_id": "24f21bb0ca16",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1786041839215,
+   "user_id": 12,
+   "session_id": "24f21bb0ca16",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1786041934429,
+   "user_id": 12,
+   "session_id": "24f21bb0ca16",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1786285790457,
+   "user_id": 9,
+   "session_id": "2bf40bbe1e8b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786285807819,
+   "user_id": 9,
+   "session_id": "2bf40bbe1e8b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "yoga near me"
+   }
+  },
+  {
+   "occurred_at": 1786285845199,
+   "user_id": 9,
+   "session_id": "2bf40bbe1e8b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786285916539,
+   "user_id": 9,
+   "session_id": "2bf40bbe1e8b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786286000513,
+   "user_id": 9,
+   "session_id": "2bf40bbe1e8b",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786467658568,
+   "user_id": 18,
+   "session_id": "886f7c4649df",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786467725659,
+   "user_id": 18,
+   "session_id": "886f7c4649df",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786467828027,
+   "user_id": 18,
+   "session_id": "886f7c4649df",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786467865153,
+   "user_id": 18,
+   "session_id": "886f7c4649df",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786468084043,
+   "user_id": 18,
+   "session_id": "886f7c4649df",
+   "studio_id": 1,
+   "booking_id": 23,
+   "class_id": 1,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786720246153,
+   "user_id": null,
+   "session_id": "7a3095cb8eba",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786720350955,
+   "user_id": null,
+   "session_id": "7a3095cb8eba",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1786720424653,
+   "user_id": null,
+   "session_id": "7a3095cb8eba",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1786816741431,
+   "user_id": 24,
+   "session_id": "6f7957a8e225",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1786816754888,
+   "user_id": 24,
+   "session_id": "6f7957a8e225",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "search",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786816790916,
+   "user_id": 24,
+   "session_id": "6f7957a8e225",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "web",
+    "query": "weekend workshop"
+   }
+  },
+  {
+   "occurred_at": 1786816910059,
+   "user_id": 24,
+   "session_id": "6f7957a8e225",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1786901993846,
+   "user_id": null,
+   "session_id": "d0876537aa00",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786902007327,
+   "user_id": null,
+   "session_id": "d0876537aa00",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1786902037300,
+   "user_id": null,
+   "session_id": "d0876537aa00",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1786902115682,
+   "user_id": null,
+   "session_id": "d0876537aa00",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 2,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 2,
+    "price_cents": 3100
+   }
+  },
+  {
+   "occurred_at": 1786902196772,
+   "user_id": null,
+   "session_id": "d0876537aa00",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 3,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 3,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1786911842082,
+   "user_id": null,
+   "session_id": "937760c69c30",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "ios",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1786911881856,
+   "user_id": null,
+   "session_id": "937760c69c30",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "ios",
+    "query": "kids music"
+   }
+  },
+  {
+   "occurred_at": 1786911911639,
+   "user_id": null,
+   "session_id": "937760c69c30",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 8,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 8,
+    "price_cents": 4900
+   }
+  },
+  {
+   "occurred_at": 1786911980873,
+   "user_id": null,
+   "session_id": "937760c69c30",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1786912016400,
+   "user_id": null,
+   "session_id": "937760c69c30",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 9,
+   "event_name": "class_view",
+   "properties": {
+    "device": "ios",
+    "class_id": 9,
+    "price_cents": 3900
+   }
+  },
+  {
+   "occurred_at": 1787055996760,
+   "user_id": null,
+   "session_id": "588fccb7ce72",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1787056018556,
+   "user_id": null,
+   "session_id": "588fccb7ce72",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "search",
+   "properties": {
+    "device": "android",
+    "query": "evening class"
+   }
+  },
+  {
+   "occurred_at": 1787056094886,
+   "user_id": null,
+   "session_id": "588fccb7ce72",
+   "studio_id": 1,
+   "booking_id": null,
+   "class_id": 1,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 1,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1787382656086,
+   "user_id": null,
+   "session_id": "1ebb92f5e414",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "android",
+    "referrer": "direct",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1787382757661,
+   "user_id": null,
+   "session_id": "1ebb92f5e414",
+   "studio_id": 3,
+   "booking_id": null,
+   "class_id": 7,
+   "event_name": "class_view",
+   "properties": {
+    "device": "android",
+    "class_id": 7,
+    "price_cents": 1900
+   }
+  },
+  {
+   "occurred_at": 1787923542587,
+   "user_id": 1,
+   "session_id": "82870f6b115f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "login",
+   "properties": {
+    "device": "web"
+   }
+  },
+  {
+   "occurred_at": 1787923556783,
+   "user_id": 1,
+   "session_id": "82870f6b115f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": null,
+   "event_name": "page_view",
+   "properties": {
+    "device": "web",
+    "referrer": "instagram",
+    "path": "/"
+   }
+  },
+  {
+   "occurred_at": 1787923605261,
+   "user_id": 1,
+   "session_id": "82870f6b115f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1787923690434,
+   "user_id": 1,
+   "session_id": "82870f6b115f",
+   "studio_id": 2,
+   "booking_id": null,
+   "class_id": 6,
+   "event_name": "class_view",
+   "properties": {
+    "device": "web",
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1787923847293,
+   "user_id": 1,
+   "session_id": "82870f6b115f",
+   "studio_id": 2,
+   "booking_id": 14,
+   "class_id": 6,
+   "event_name": "booking_started",
+   "properties": {
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  },
+  {
+   "occurred_at": 1787923876991,
+   "user_id": 1,
+   "session_id": "82870f6b115f",
+   "studio_id": 2,
+   "booking_id": 14,
+   "class_id": 6,
+   "event_name": "booking_paid",
+   "properties": {
+    "class_id": 6,
+    "price_cents": 5900
+   }
+  }
+ ]
+}

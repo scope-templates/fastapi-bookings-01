@@ -1,0 +1,877 @@
+[
+ {
+  "label": "August",
+  "from": 1785542400000,
+  "to": 1788134400000,
+  "expected": {
+   "daily_actives": [
+    {
+     "day": "2026-08-01",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-06",
+     "active_users": 2
+    },
+    {
+     "day": "2026-08-09",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-11",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-15",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-28",
+     "active_users": 1
+    }
+   ],
+   "booking_funnel": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "viewed": 7,
+     "started": 2,
+     "paid": 1
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "viewed": 3,
+     "started": 1,
+     "paid": 1
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "viewed": 3,
+     "started": 0,
+     "paid": 0
+    }
+   ],
+   "top_classes": [
+    {
+     "class_id": 6,
+     "title": "Glaze Night",
+     "studio_id": 2,
+     "views": 6,
+     "paid_bookings": 1,
+     "revenue_cents": 5900
+    },
+    {
+     "class_id": 3,
+     "title": "Power Hour",
+     "studio_id": 1,
+     "views": 5,
+     "paid_bookings": 1,
+     "revenue_cents": 3900
+    },
+    {
+     "class_id": 1,
+     "title": "Sunrise Flow",
+     "studio_id": 1,
+     "views": 6,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 2,
+     "title": "Slow Stretch",
+     "studio_id": 1,
+     "views": 4,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 9,
+     "title": "Ukulele Circle",
+     "studio_id": 3,
+     "views": 3,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 8,
+     "title": "Piano Lab",
+     "studio_id": 3,
+     "views": 2,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 7,
+     "title": "Guitar Intro",
+     "studio_id": 3,
+     "views": 1,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    }
+   ],
+   "cancellation_rate": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W31",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2026-W35",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "everything",
+  "from": 1740787200000,
+  "to": 1788134400000,
+  "expected": {
+   "daily_actives": [
+    {
+     "day": "2025-03-30",
+     "active_users": 1
+    },
+    {
+     "day": "2025-04-02",
+     "active_users": 1
+    },
+    {
+     "day": "2025-05-05",
+     "active_users": 1
+    },
+    {
+     "day": "2025-05-17",
+     "active_users": 1
+    },
+    {
+     "day": "2025-05-25",
+     "active_users": 1
+    },
+    {
+     "day": "2025-06-01",
+     "active_users": 1
+    },
+    {
+     "day": "2025-06-09",
+     "active_users": 1
+    },
+    {
+     "day": "2025-06-22",
+     "active_users": 1
+    },
+    {
+     "day": "2025-06-25",
+     "active_users": 1
+    },
+    {
+     "day": "2025-08-04",
+     "active_users": 1
+    },
+    {
+     "day": "2025-10-06",
+     "active_users": 1
+    },
+    {
+     "day": "2025-10-16",
+     "active_users": 1
+    },
+    {
+     "day": "2025-10-19",
+     "active_users": 1
+    },
+    {
+     "day": "2025-10-21",
+     "active_users": 1
+    },
+    {
+     "day": "2025-10-28",
+     "active_users": 1
+    },
+    {
+     "day": "2025-10-30",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-06",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-10",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-18",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-20",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-21",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-23",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-24",
+     "active_users": 1
+    },
+    {
+     "day": "2025-11-25",
+     "active_users": 1
+    },
+    {
+     "day": "2025-12-27",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-01",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-02",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-05",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-06",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-08",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-14",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-20",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-22",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-25",
+     "active_users": 2
+    },
+    {
+     "day": "2026-02-12",
+     "active_users": 1
+    },
+    {
+     "day": "2026-02-15",
+     "active_users": 1
+    },
+    {
+     "day": "2026-02-17",
+     "active_users": 1
+    },
+    {
+     "day": "2026-02-24",
+     "active_users": 1
+    },
+    {
+     "day": "2026-02-28",
+     "active_users": 1
+    },
+    {
+     "day": "2026-03-01",
+     "active_users": 1
+    },
+    {
+     "day": "2026-03-07",
+     "active_users": 1
+    },
+    {
+     "day": "2026-03-09",
+     "active_users": 1
+    },
+    {
+     "day": "2026-03-11",
+     "active_users": 1
+    },
+    {
+     "day": "2026-03-14",
+     "active_users": 1
+    },
+    {
+     "day": "2026-03-30",
+     "active_users": 1
+    },
+    {
+     "day": "2026-04-13",
+     "active_users": 1
+    },
+    {
+     "day": "2026-04-19",
+     "active_users": 2
+    },
+    {
+     "day": "2026-04-22",
+     "active_users": 1
+    },
+    {
+     "day": "2026-04-25",
+     "active_users": 1
+    },
+    {
+     "day": "2026-04-26",
+     "active_users": 2
+    },
+    {
+     "day": "2026-05-05",
+     "active_users": 1
+    },
+    {
+     "day": "2026-05-09",
+     "active_users": 1
+    },
+    {
+     "day": "2026-05-10",
+     "active_users": 1
+    },
+    {
+     "day": "2026-05-11",
+     "active_users": 1
+    },
+    {
+     "day": "2026-05-16",
+     "active_users": 2
+    },
+    {
+     "day": "2026-05-23",
+     "active_users": 1
+    },
+    {
+     "day": "2026-06-01",
+     "active_users": 1
+    },
+    {
+     "day": "2026-06-04",
+     "active_users": 2
+    },
+    {
+     "day": "2026-06-09",
+     "active_users": 1
+    },
+    {
+     "day": "2026-06-11",
+     "active_users": 1
+    },
+    {
+     "day": "2026-06-13",
+     "active_users": 1
+    },
+    {
+     "day": "2026-06-14",
+     "active_users": 1
+    },
+    {
+     "day": "2026-06-23",
+     "active_users": 1
+    },
+    {
+     "day": "2026-07-08",
+     "active_users": 1
+    },
+    {
+     "day": "2026-07-11",
+     "active_users": 1
+    },
+    {
+     "day": "2026-07-12",
+     "active_users": 1
+    },
+    {
+     "day": "2026-07-22",
+     "active_users": 1
+    },
+    {
+     "day": "2026-07-27",
+     "active_users": 1
+    },
+    {
+     "day": "2026-07-28",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-01",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-06",
+     "active_users": 2
+    },
+    {
+     "day": "2026-08-09",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-11",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-15",
+     "active_users": 1
+    },
+    {
+     "day": "2026-08-28",
+     "active_users": 1
+    }
+   ],
+   "booking_funnel": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "viewed": 42,
+     "started": 11,
+     "paid": 7
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "viewed": 39,
+     "started": 8,
+     "paid": 6
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "viewed": 32,
+     "started": 7,
+     "paid": 5
+    }
+   ],
+   "top_classes": [
+    {
+     "class_id": 2,
+     "title": "Slow Stretch",
+     "studio_id": 1,
+     "views": 32,
+     "paid_bookings": 4,
+     "revenue_cents": 12400
+    },
+    {
+     "class_id": 5,
+     "title": "Handbuilding",
+     "studio_id": 2,
+     "views": 27,
+     "paid_bookings": 3,
+     "revenue_cents": 7800
+    },
+    {
+     "class_id": 7,
+     "title": "Guitar Intro",
+     "studio_id": 3,
+     "views": 25,
+     "paid_bookings": 3,
+     "revenue_cents": 5700
+    },
+    {
+     "class_id": 3,
+     "title": "Power Hour",
+     "studio_id": 1,
+     "views": 33,
+     "paid_bookings": 2,
+     "revenue_cents": 7800
+    },
+    {
+     "class_id": 6,
+     "title": "Glaze Night",
+     "studio_id": 2,
+     "views": 26,
+     "paid_bookings": 2,
+     "revenue_cents": 11800
+    },
+    {
+     "class_id": 1,
+     "title": "Sunrise Flow",
+     "studio_id": 1,
+     "views": 23,
+     "paid_bookings": 1,
+     "revenue_cents": 5900
+    },
+    {
+     "class_id": 4,
+     "title": "Wheel Basics",
+     "studio_id": 2,
+     "views": 23,
+     "paid_bookings": 1,
+     "revenue_cents": 3700
+    },
+    {
+     "class_id": 8,
+     "title": "Piano Lab",
+     "studio_id": 3,
+     "views": 23,
+     "paid_bookings": 1,
+     "revenue_cents": 4900
+    },
+    {
+     "class_id": 9,
+     "title": "Ukulele Circle",
+     "studio_id": 3,
+     "views": 20,
+     "paid_bookings": 1,
+     "revenue_cents": 3900
+    }
+   ],
+   "cancellation_rate": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2025-W44",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W01",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W04",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W09",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W23",
+     "paid_bookings": 1,
+     "cancelled": 1,
+     "cancellation_rate": 1
+    },
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W24",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W31",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2025-W22",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2025-W25",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2025-W47",
+     "paid_bookings": 1,
+     "cancelled": 1,
+     "cancellation_rate": 1
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2025-W52",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2026-W17",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2026-W35",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "week": "2025-W47",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "week": "2026-W08",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "week": "2026-W10",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "week": "2026-W19",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "week": "2026-W20",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "December to January",
+  "from": 1764547200000,
+  "to": 1768176000000,
+  "expected": {
+   "daily_actives": [
+    {
+     "day": "2025-12-27",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-01",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-02",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-05",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-06",
+     "active_users": 1
+    },
+    {
+     "day": "2026-01-08",
+     "active_users": 1
+    }
+   ],
+   "booking_funnel": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "viewed": 1,
+     "started": 1,
+     "paid": 1
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "viewed": 6,
+     "started": 2,
+     "paid": 1
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "viewed": 1,
+     "started": 0,
+     "paid": 0
+    }
+   ],
+   "top_classes": [
+    {
+     "class_id": 4,
+     "title": "Wheel Basics",
+     "studio_id": 2,
+     "views": 5,
+     "paid_bookings": 1,
+     "revenue_cents": 3700
+    },
+    {
+     "class_id": 1,
+     "title": "Sunrise Flow",
+     "studio_id": 1,
+     "views": 2,
+     "paid_bookings": 1,
+     "revenue_cents": 5900
+    },
+    {
+     "class_id": 5,
+     "title": "Handbuilding",
+     "studio_id": 2,
+     "views": 7,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 6,
+     "title": "Glaze Night",
+     "studio_id": 2,
+     "views": 2,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 3,
+     "title": "Power Hour",
+     "studio_id": 1,
+     "views": 1,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 7,
+     "title": "Guitar Intro",
+     "studio_id": 3,
+     "views": 1,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 8,
+     "title": "Piano Lab",
+     "studio_id": 3,
+     "views": 1,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    }
+   ],
+   "cancellation_rate": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "week": "2026-W01",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    },
+    {
+     "studio_id": 2,
+     "studio": "Kiln & Wheel",
+     "week": "2025-W52",
+     "paid_bookings": 1,
+     "cancelled": 0,
+     "cancellation_rate": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "one day",
+  "from": 1786838400000,
+  "to": 1786924800000,
+  "expected": {
+   "daily_actives": [],
+   "booking_funnel": [
+    {
+     "studio_id": 1,
+     "studio": "Harbor Yoga",
+     "viewed": 1,
+     "started": 0,
+     "paid": 0
+    },
+    {
+     "studio_id": 3,
+     "studio": "Fourth Street Music",
+     "viewed": 1,
+     "started": 0,
+     "paid": 0
+    }
+   ],
+   "top_classes": [
+    {
+     "class_id": 3,
+     "title": "Power Hour",
+     "studio_id": 1,
+     "views": 2,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 9,
+     "title": "Ukulele Circle",
+     "studio_id": 3,
+     "views": 2,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 2,
+     "title": "Slow Stretch",
+     "studio_id": 1,
+     "views": 1,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    },
+    {
+     "class_id": 8,
+     "title": "Piano Lab",
+     "studio_id": 3,
+     "views": 1,
+     "paid_bookings": 0,
+     "revenue_cents": 0
+    }
+   ],
+   "cancellation_rate": []
+  }
+ }
+]
