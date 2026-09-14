@@ -7,7 +7,7 @@ find and book classes.
 ## Running
 
     pip install -r requirements.txt
-    uvicorn app.main:app --reload
+    python -m uvicorn app.main:app --reload
 
 The app keeps its data in a SQLite file at `data/studio-slot.sqlite` (set `DATABASE_PATH` to use
 another location). On first start it loads a small bundled sample so the endpoints have something to
@@ -40,4 +40,4 @@ The API takes any `from` and `to`; without them it reports the most recent 30 da
 
 ## Tests
 
-    pytest
+    python -m pytest
